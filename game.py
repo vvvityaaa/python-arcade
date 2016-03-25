@@ -15,6 +15,7 @@ class Game:
     def event(self, event):
             if event.type == pygame.QUIT:
                 sys.exit()
+            #filling screen
             size = (width, height) = (320, 240)
             speed = [2, 2]
             screen = pygame.display.set_mode(size)
